@@ -1,0 +1,14 @@
+C:\Users\aahli\Documents\Repositorios\Locales\Csharp\Metodo de eliminación de Gauss\EliminacionGauss\bin\Debug\net9.0\EliminacionGauss.exe
+C:\Users\aahli\Documents\Repositorios\Locales\Csharp\Metodo de eliminación de Gauss\EliminacionGauss\bin\Debug\net9.0\EliminacionGauss.deps.json
+C:\Users\aahli\Documents\Repositorios\Locales\Csharp\Metodo de eliminación de Gauss\EliminacionGauss\bin\Debug\net9.0\EliminacionGauss.runtimeconfig.json
+C:\Users\aahli\Documents\Repositorios\Locales\Csharp\Metodo de eliminación de Gauss\EliminacionGauss\bin\Debug\net9.0\EliminacionGauss.dll
+C:\Users\aahli\Documents\Repositorios\Locales\Csharp\Metodo de eliminación de Gauss\EliminacionGauss\bin\Debug\net9.0\EliminacionGauss.pdb
+C:\Users\aahli\Documents\Repositorios\Locales\Csharp\Metodo de eliminación de Gauss\EliminacionGauss\obj\Debug\net9.0\EliminacionGauss.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aahli\Documents\Repositorios\Locales\Csharp\Metodo de eliminación de Gauss\EliminacionGauss\obj\Debug\net9.0\EliminacionGauss.AssemblyInfoInputs.cache
+C:\Users\aahli\Documents\Repositorios\Locales\Csharp\Metodo de eliminación de Gauss\EliminacionGauss\obj\Debug\net9.0\EliminacionGauss.AssemblyInfo.cs
+C:\Users\aahli\Documents\Repositorios\Locales\Csharp\Metodo de eliminación de Gauss\EliminacionGauss\obj\Debug\net9.0\EliminacionGauss.csproj.CoreCompileInputs.cache
+C:\Users\aahli\Documents\Repositorios\Locales\Csharp\Metodo de eliminación de Gauss\EliminacionGauss\obj\Debug\net9.0\EliminacionGauss.dll
+C:\Users\aahli\Documents\Repositorios\Locales\Csharp\Metodo de eliminación de Gauss\EliminacionGauss\obj\Debug\net9.0\refint\EliminacionGauss.dll
+C:\Users\aahli\Documents\Repositorios\Locales\Csharp\Metodo de eliminación de Gauss\EliminacionGauss\obj\Debug\net9.0\EliminacionGauss.pdb
+C:\Users\aahli\Documents\Repositorios\Locales\Csharp\Metodo de eliminación de Gauss\EliminacionGauss\obj\Debug\net9.0\EliminacionGauss.genruntimeconfig.cache
+C:\Users\aahli\Documents\Repositorios\Locales\Csharp\Metodo de eliminación de Gauss\EliminacionGauss\obj\Debug\net9.0\ref\EliminacionGauss.dll
