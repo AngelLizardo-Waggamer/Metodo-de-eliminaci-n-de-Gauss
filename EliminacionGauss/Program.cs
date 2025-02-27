@@ -15,11 +15,11 @@
     x2 = 0
     x3 = 3
 */
-double[,] coeficientes = {  { 2, 1, -1 },
-                            { 3, 2, 2 },
+double[,] coeficientes = {  { 2, 1, -1 },  // Matriz de coeficientes
+                            { 3, 2, 2 },   
                             { 1, 1, 1 } }; 
-double[] valoresRespuesta = { 1, 12, 5 }; 
-int gradoDelSistema = 3; 
+double[] valoresRespuesta = { 1, 12, 5 };  // Matriz de respuestas de las ecuaciones
+int gradoDelSistema = 3; // Grado del sistema de ecuaciones. Es decir, el número de ecuacionnes y de respuestas.
 
 for (int i = 0; i < gradoDelSistema; i++)
 {
