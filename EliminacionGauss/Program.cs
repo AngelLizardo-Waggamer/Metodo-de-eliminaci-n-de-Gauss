@@ -15,38 +15,38 @@
     x2 = 0
     x3 = 3
 */
-double[,] a = { { 2, 1, -1 },
-                { 3, 2, 2 },
-                { 1, 1, 1 } }; // Variables
-double[] b = { 1, 12, 5 }; // Respuestas
-int n = 3; // Número de variables|ecuaciones
+double[,] coeficientes = {  { 2, 1, -1 },
+                            { 3, 2, 2 },
+                            { 1, 1, 1 } }; 
+double[] valoresRespuesta = { 1, 12, 5 }; 
+int gradoDelSistema = 3; 
 
-for (int i = 0; i < n; i++)
+for (int i = 0; i < gradoDelSistema; i++)
 {
-    for (int k = i + 1; k < n; k++)
+    for (int k = i + 1; k < gradoDelSistema; k++)
     {
-        double t = a[k, i] / a[i, i];
-        for (int j = 0; j < n; j++)
+        double t = coeficientes[k, i] / coeficientes[i, i];
+        for (int j = 0; j < gradoDelSistema; j++)
         {
-            a[k, j] -= t * a[i, j];
+            coeficientes[k, j] -= t * coeficientes[i, j];
         }
-        b[k] -= t * b[i];
+        valoresRespuesta[k] -= t * valoresRespuesta[i];
     }
 }
 
-double[] x = new double[n];
-for (int i = n - 1; i >= 0; i--)
+double[] x = new double[gradoDelSistema];
+for (int i = gradoDelSistema - 1; i >= 0; i--)
 {
-    x[i] = b[i];
-    for (int j = i + 1; j < n; j++)
+    x[i] = valoresRespuesta[i];
+    for (int j = i + 1; j < gradoDelSistema; j++)
     {
-        x[i] -= a[i, j] * x[j];
+        x[i] -= coeficientes[i, j] * x[j];
     }
-    x[i] /= a[i, i];
+    x[i] /= coeficientes[i, i];
 }
 
 Console.WriteLine("Soluciones:");
-for (int i = 0; i < n; i++)
+for (int i = 0; i < gradoDelSistema; i++)
 {
     Console.WriteLine("x" + (i + 1) + " = " + x[i]);
 }
